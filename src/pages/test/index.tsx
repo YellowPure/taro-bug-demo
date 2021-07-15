@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { View } from "@tarojs/components";
+import { View, Button, Text } from "@tarojs/components";
 import { observer, inject } from "mobx-react";
 
 import "./index.scss";

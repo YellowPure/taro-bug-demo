@@ -9,7 +9,9 @@
     "css": "sass"
   },
   "scripts": {
-    "build:weapp": "taro build --type weapp",
+    "build-test:weapp": "taro build --type weapp --env test",
+    "build-stage:weapp": "taro build --type weapp --env stage",
+    "build-prod:weapp": "taro build --type weapp",
     "build:swan": "taro build --type swan",
     "build:alipay": "taro build --type alipay",
     "build:tt": "taro build --type tt",
@@ -51,8 +53,8 @@
     "@babel/core": "^7.8.0",
     "@tarojs/webpack-runner": "3.2.8",
     "babel-preset-taro": "3.2.8",
-    "eslint-config-taro": "3.2.8",
     "eslint": "^6.8.0",
+    "eslint-config-taro": "3.2.8",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react-hooks": "^4.2.0",

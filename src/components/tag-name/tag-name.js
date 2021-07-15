@@ -15,10 +15,11 @@ Component({
   },
   data: {
     txt: "first",
+    listData: [],
   },
   observers: {
     listData(list) {
-      console.log("trigger");
+      console.log("trigger1");
       this.setData({ txt: list.join(",") });
     },
   },
